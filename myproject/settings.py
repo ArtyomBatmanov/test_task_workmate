@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-9()i4x0j_wyqkq3h&sp@vp8)6e6hb_u$70a(l$r94)x@(j0$63
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -90,7 +90,7 @@ DATABASES = {
         'NAME': 'kitten_db',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
