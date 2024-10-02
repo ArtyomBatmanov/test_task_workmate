@@ -20,3 +20,7 @@ class RatingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Rating
         fields = ['kitten', 'user', 'score']
+
+
+
+

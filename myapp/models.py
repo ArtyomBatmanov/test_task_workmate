@@ -11,10 +11,9 @@ class Breed(models.Model):
 
 class Kitten(models.Model):
     COLOR_CHOICES = [
-        ('black', 'Black'),
-        ('white', 'White'),
-        ('ginger', 'Ginger'),
-        ('grey', 'Grey'),
+        ('чёрный', 'Чёрный'),
+        ('белый', 'Белый'),
+        ('серый', 'Серый'),
     ]
 
     breed = models.ForeignKey(Breed, on_delete=models.CASCADE)
